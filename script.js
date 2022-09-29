@@ -6,6 +6,7 @@ passwordEl.setAttribute('placeholder', 'Сгенерировать пароль'
 passwordEl.addEventListener('keypress', (e) => {
     e.preventDefault();
 });
+
 passwordEl.addEventListener('focus', (e) => {
     passwordEl.select();
     passwordEl.setSelectionRange(0, 99999);
