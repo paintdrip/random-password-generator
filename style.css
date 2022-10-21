@@ -1,106 +1,106 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    color: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
 }
 
 body {
-    background-color: #333;
-    font-family: 'Raleway', sans-serif;
+  background-color: #333;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  height: 100vh;
 }
 
 .main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
 }
 
 .secondary {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 23px;
-    margin-left: 50px;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 50px;
+  transform: translate(-50%, -50%);
 }
 
 .input {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .password {
-    padding: 10px;
-    margin: 10px;
-    caret-color: transparent;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: inherit;
-    color: white;
-    outline: none;
-    background: none;
-    font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  margin: 10px;
+  caret-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: inherit;
+  color: white;
+  outline: none;
+  background: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .password-button {
-    font-size: 20px;
-    background: linear-gradient(to left, #0F2027, #203A43, #2C5364);
-    text-decoration: none;
-    padding: 8px 40px;
-    margin: 5px;
-    border-radius: 17px;
-    border: none;
-    background-size: 200%;
-    transition: .5s;
-    font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+  text-decoration: none;
+  padding: 8px 40px;
+  margin: 5px;
+  border-radius: 17px;
+  border: none;
+  background-size: 200%;
+  transition: 0.5s;
+  font-family: "Raleway", sans-serif;
 }
 
 .password-button:hover {
-    background-position: right;
+  background-position: right;
 }
 
 input[type="checkbox"] {
-    width: 40px;
-    height: 20px;
-    -webkit-appearance: none;
-    outline: none;
-    background: #c6c6c6;
-    border-radius: 20px;
-    transition: .5s;
-    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+  width: 40px;
+  height: 20px;
+  -webkit-appearance: none;
+  outline: none;
+  background: #c6c6c6;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 input:checked[type="checkbox"] {
-    background: #2C5364
+  background: #2c5364;
 }
 
 input[type="checkbox"]:before {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    top: 0;
-    left: 0;
-    background: #fff;
-    transition: .5s;
-    transform: scale(1.1);
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 input:checked[type="checkbox"]:before {
-    left: 20px;
+  left: 20px;
 }
